@@ -11,8 +11,8 @@ class Search {
 		def results = [:]
 		def range = 2
 		def daysBetween = 15
-		def show = { k,it ->
-			println "$k\t${it.stops}\t${it.price}\t${it.from}\t${it.to}\t${it.dest}"
+		def show = { k,item ->
+			println "$k\t${item.stops}\t${item.price}\t${item.from}\t${item.to}\t${item.dest}"
 		}
 
 		for(int i=0; i < 10; i++){
@@ -31,10 +31,9 @@ class Search {
 						def searchResult = JSONObject.fromObject (url.toURL().getText())
 						results[fUrl] = searchResult.Boxs.collect({[stops:it.Dep[0].Segmts?.Stops?.size(), 
 						from:froms, to:tos, price:it.Itns[0].Tot?.Loc, dest:dest]})
-						println "wot: ${results[fUrl]}"
 						results[fUrl].each{v ->
 							print "parcial: "
-							println "$fUrl\t${v.stops}\t${v.price}\t${v.from}\t${v.to}\t${v.dest}"
+							show(fUrl,v)
 						}
 					}catch(Exception e){
 						println e
