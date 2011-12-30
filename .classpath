@@ -3,7 +3,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
-	<classpathentry kind="lib" path="lib/antlr-2.7.6.jar"/>
 	<classpathentry kind="lib" path="lib/aopalliance-1.0.jar"/>
 	<classpathentry kind="lib" path="lib/aspectjrt-1.6.8.jar"/>
 	<classpathentry kind="lib" path="lib/aspectjweaver-1.6.8.jar"/>
@@ -28,28 +27,15 @@
 	<classpathentry kind="lib" path="lib/commons-validator-1.3.1.jar"/>
 	<classpathentry kind="lib" path="lib/concurrentlinkedhashmap-lru-1.0_jdk5.jar"/>
 	<classpathentry kind="lib" path="lib/core-renderer-R8.jar"/>
-	<classpathentry kind="lib" path="lib/cssparser-0.9.5.jar"/>
 	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
 	<classpathentry kind="lib" path="lib/ejb3-persistence-1.0.2.GA.jar"/>
 	<classpathentry kind="lib" path="lib/ezmorph-1.0.6.jar"/>
 	<classpathentry kind="lib" path="lib/groovy-all-1.7.8.jar"/>
-	<classpathentry kind="lib" path="lib/hsqldb-1.8.0.10.jar"/>
 	<classpathentry kind="lib" path="lib/htmlunit-2.4.jar"/>
 	<classpathentry kind="lib" path="lib/htmlunit-core-js-2.4.jar"/>
-	<classpathentry kind="lib" path="lib/httpclient-4.0.1.jar"/>
-	<classpathentry kind="lib" path="lib/httpclient-4.0.3.jar"/>
-	<classpathentry kind="lib" path="lib/httpcore-4.0.1.jar"/>
-	<classpathentry kind="lib" path="lib/httpmime-4.0.1.jar"/>
-	<classpathentry kind="lib" path="lib/httpunit-1.6.jar"/>
-	<classpathentry kind="lib" path="lib/i18ngettext-bar.jar"/>
-	<classpathentry kind="lib" path="lib/i18ngettext-mlapi.jar"/>
-	<classpathentry kind="lib" path="lib/i18ngettext.jar"/>
 	<classpathentry kind="lib" path="lib/itext-2.1.0.jar"/>
 	<classpathentry kind="lib" path="lib/javassist-3.11.0.GA.jar"/>
 	<classpathentry kind="lib" path="lib/jcl-over-slf4j-1.5.8.jar"/>
-	<classpathentry kind="lib" path="lib/jedis-2.0.0.jar"/>
-	<classpathentry kind="lib" path="lib/joda-time-1.6.jar"/>
-	<classpathentry kind="lib" path="lib/joda-time-hibernate-1.2.jar"/>
 	<classpathentry kind="lib" path="lib/jp2j-0.1.2.jar"/>
 	<classpathentry kind="lib" path="lib/js-1.7R2.jar"/>
 	<classpathentry kind="lib" path="lib/json-20090211.jar"/>
@@ -58,30 +44,16 @@
 	<classpathentry kind="lib" path="lib/jstl-1.1.2.jar"/>
 	<classpathentry kind="lib" path="lib/jta-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/jul-to-slf4j-1.5.8.jar"/>
-	<classpathentry kind="lib" path="lib/junit-4.8.1.jar"/>
-	<classpathentry kind="lib" path="lib/jyaml-1.3.jar"/>
-	<classpathentry kind="lib" path="lib/lis.lst"/>
-	<classpathentry kind="lib" path="lib/list.lst"/>
 	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
-	<classpathentry kind="lib" path="lib/mail-1.4.jar"/>
-	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.18-bin.jar"/>
 	<classpathentry kind="lib" path="lib/nekohtml-1.9.14.jar"/>
 	<classpathentry kind="lib" path="lib/oro-2.0.8.jar"/>
 	<classpathentry kind="lib" path="lib/poi-3.2-FINAL.jar"/>
-	<classpathentry kind="lib" path="lib/public2private-0.1.7.jar"/>
-	<classpathentry kind="lib" path="lib/restclient-0.5.13.jar"/>
 	<classpathentry kind="lib" path="lib/sac-1.3.jar"/>
 	<classpathentry kind="lib" path="lib/serializer-2.7.1.jar"/>
 	<classpathentry kind="lib" path="lib/servlet-api-2.5.jar"/>
-	<classpathentry kind="lib" path="lib/sitemesh-2.4.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-api-1.5.8.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.5.8.jar"/>
 	<classpathentry kind="lib" path="lib/standard-1.1.2.jar"/>
-	<classpathentry kind="lib" path="lib/t.sh"/>
 	<classpathentry kind="lib" path="lib/utilities-0.0.10.jar"/>
-	<classpathentry kind="lib" path="lib/xalan-2.7.1.jar"/>
-	<classpathentry kind="lib" path="lib/xercesImpl-2.9.1.jar"/>
-	<classpathentry kind="lib" path="lib/xpp3_min-1.1.3.4.O.jar"/>
-	<classpathentry kind="lib" path="lib/xstream-1.3.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
