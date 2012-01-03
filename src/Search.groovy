@@ -4,6 +4,16 @@ import net.sf.json.JSONObject;
 
 class Search {
 
+	static countries = [
+				"CCS": "Caracas, Venezuela",
+				"PAR": "Paris, Francia",
+				"LON": "Londres, Inglaterra",
+				"BCN": "Barcelona, España",
+				"MAD": "Madrid, España",
+				"LIS": "Lisboa, Portugal",
+				"ROM": "Roma, Italia",
+				"PCM": "Playa del carmen, Mexico"
+			]
 	static main(args) {
 		
 		
@@ -29,8 +39,16 @@ class Search {
 					println "a $dest fecha: $froms volviendo el $tos..."
 					try{
 						def searchResult = JSONObject.fromObject (url.toURL().getText())
-						results[fUrl] = searchResult.Boxs.collect({[stops:it.Dep[0].Segmts?.Stops?.size(), 
-						from:froms, to:tos, price:it.Itns[0].Tot?.Loc, dest:dest]})
+						results[fUrl] = searchResult.Boxs.collect({
+							println "DN price :${it.Itns[0].Tot?.Loc} class ${it.Itns[0].Tot?.Loc.getClass()}"
+							[
+								stops:it.Dep[0].Segmts?.Stops?.size(), 
+								from:froms,
+								to:tos,
+								price:it.Itns[0].Tot?.Loc,
+								dest:dest
+							]
+						})
 						results[fUrl].each{v ->
 							print "parcial: "
 							show(fUrl,v)
