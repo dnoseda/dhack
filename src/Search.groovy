@@ -31,7 +31,7 @@ class Search {
 				def from = initial.clone()
 				from.add(Calendar.DATE, i)
 				def to = from.clone()
-				for(j in [(lambda*-1)..lambda]){
+				for(j in (lambda*-1)..lambda){
 					daysBetween += j
 					to.add(Calendar.DATE, daysBetween)
 					def froms = String.format('%tF', from)
